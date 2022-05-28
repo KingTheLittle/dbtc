@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html {
+			   font-family: Arial, Helvetica, sans-serif;
+		}
+body {
+  background-color: #05051C;
+}
+
+.header {
+    border-radius: 4px;
+    Background-color: #071034;
+	font-size: 40px;
+	color: white;
+	padding: 25px;
+    grid-area: Header;
+}
+
+.container {
+  display: grid;
+  height: 500px;
+  grid-gap: 1px;
+  grid-template-columns: 1fr 1fr 0.5fr;
+  grid-template-rows: 0.2fr 1fr 1fr;
+  grid-template-areas: 
+  "Header Header Link"
+  "a1 a2 Link"
+  "a3 a4 Link"
+}
+
+.link {
+    border-radius: 4px;
+	Background-color: #071034;
+	padding: 10px;
+	color: white;
+	text-align: left;
+    grid-area: Link;
+	font-size: 25px;
+}
+
+.Tensura {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  grid-area: a1;
+  background-color: #060D2A;
+ }
+.Erased {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  grid-area: a2;
+  background-color: #060D2A;
+ }
+.Rascal {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  grid-area: a3;
+  background-color: #060D2A;
+ }
+.Sakurasou {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  grid-area: a4;
+  background-color: #060D2A;
+ }
+ 
+</style>
+</head>
+<body> 
+
+<div class="container">
+<div align="center" class="header">Favorite anime</div> 
+<div align="center" class="Tensura"><a href="https://en.wikipedia.org/wiki/That_Time_I_Got_Reincarnated_as_a_Slime">
+<img src="tensura.jpg" width=300 height=450 class=center></div></a> 
+<div align="center" class="Erased"><a href="https://myanimelist.net/anime/31043/Boku_dake_ga_Inai_Machi">
+<img src="erased.jpg" width=300 height=450 class=center></div></a> 
+<div align="center" class="Rascal"><a href="https://myanimelist.net/anime/37450/Seishun_Buta_Yarou_wa_Bunny_Girl_Senpai_no_Yume_wo_Minai">
+<img src="raascal.jpg" width=300 height=450 class=center></div></a>
+<div align="center" class="Sakurasou"><a href="https://myanimelist.net/anime/13759/Sakura-sou_no_Pet_na_Kanojo">
+<img src="sakurasou.jpg" width=300 height=450 class=center></div></a>
+<div align="center" class="link">
+	<br><br><br>
+	<a href="Index.html">Home</a><br>
+    <a href="anime.html">Anime</a><br>
+    <a href="manga.html">Manga/Manhua/Manhwa</a><br>
+	<a href="games.html">Games</a><br>
+	<a href="waifus.html">Waifus</a>
+</div>  
+</div>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+html {
+			    font-family: "Lucida Console", "Courier New", monospace;
+}
+body {
+  background-color: #05051C;
+}
+.container {
+  display: grid;
+  height: 500px;
+  grid-gap: 1px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 0.1fr 1fr;
+  grid-template-areas: 
+  "S1 Header Header"
+  "S1 Main Main2"
+  "S1 C1 C2"
+}
+
+.header {
+    border-radius: 4px;
+    Background-color: #071034;
+	font-size: 25px;
+	color: white;
+	padding: 25px;
+    grid-area: Header;
+}
+.Main {
+    Background-color: #060D2A;
+	border-radius: 4px;
+	padding: 10px;
+	color: white;
+	text-align: left;
+    grid-area: Main;
+}
+.Main2 {
+  border-radius: 4px;
+    Background-color: #060D2A;
+    grid-area: Main2;
+	padding: 10px;
+	color: white;
+	text-align: left;
+
+}
+.sidebar-1 {
+    border-radius: 4px;
+    Background-color: #071034;
+    grid-area: S1;
+	padding: 90px;
+}
+
+.content-1 {
+    border-radius: 4px;
+	Background-color: #060D2A;
+    grid-area: C1;
+	padding: 10px;
+	color: white;
+	text-align: left;
+}
+
+.content-2 {
+    border-radius: 4px;
+	Background-color: #060D2A;
+	padding: 10px;
+	color: white;
+	text-align: left;
+    grid-area: C2;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+
+.container {
+  display: grid; 
+  grid-gap: 2px;
+  grid-template-columns: 2.2fr; 
+  grid-template-rows: 0.4fr 0.4fr 0.2fr 0.2fr 0.7fr 0.7fr; 
+  grid-template-areas: 
+    "Header"
+    "S1"
+    "Main"
+	"Main2"
+    "C1"
+    "C2"; 
+}
+
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+<div align="center" class="header">a site about me</div> 
+<div align="center" class="sidebar-1"><img src="me.png" class=center></div> 
+<div align="center" class="Main">About me...</div> 
+<div align="center" class="Main2">My hobbies...</div>
+<div align="center" class="content-1">Hi my name is Jose Vicente D. Dela Victoria, my sex is male,
+ I was born in the 15th day of June in 2007, I am as of right now Grade 9 in the school
+ Don Boco Technical College Cebu Inc., I am the first born of my parents with a single
+sibling who is younger than me.  </div> 
+<div align="center" class="content-2">
+	<a href="Index.html">Home</a><br>
+    <a href="anime.html">Anime</a><br>
+    <a href="manga.html">Manga/Manhua/Manhwa</a><br>
+	<a href="games.html">Games</a><br>
+	<a href="waifus.html">Waifus</a>
+</div>
+</div> 
+</div>

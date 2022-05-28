@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html {
+			   font-family: Arial, Helvetica, sans-serif;
+		}
+body {
+  background-color: #05051C;
+}
+
+.header {
+    border-radius: 4px;
+    Background-color: #071034;
+	font-size: 40px;
+	color: white;
+	padding: 25px;
+    grid-area: Header;
+}
+
+.container {
+  display: grid;
+  height: 500px;
+  grid-gap: 1px;
+  grid-template-columns: 1fr 1fr 0.5fr;
+  grid-template-rows: 0.2fr 1fr 1fr;
+  grid-template-areas: 
+  "Header Header Link"
+  "a1 a2 Link"
+  "a3 a4 Link"
+}
+
+.link {
+    border-radius: 4px;
+	Background-color: #071034;
+	padding: 10px;
+	color: white;
+	text-align: left;
+    grid-area: Link;
+	font-size: 25px;
+}
+
+.Solo {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  grid-area: a1;
+  background-color: #060D2A;
+ }
+.Spy {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  grid-area: a2;
+  background-color: #060D2A;
+ }
+.Medaka {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  grid-area: a3;
+  background-color: #060D2A;
+ }
+.Love {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  grid-area: a4;
+  background-color: #060D2A;
+ }
+ 
+</style>
+</head>
+<body> 
+
+<div class="container">
+<div align="center" class="header">Favorite manga/manhua/manhwa</div> 
+<div align="center" class="Solo"><a href="https://en.wikipedia.org/wiki/Solo_Leveling">
+<img src="Solo.png" width=300 height=450 class=center></div></a> 
+<div align="center" class="Spy"><a href="https://spy-x-family.fandom.com/wiki/Spy_x_Family_Wiki">
+<img src="spy.jpg" width=300 height=450 class=center></div></a> 
+<div align="center" class="Medaka"><a href="https://en.wikipedia.org/wiki/Medaka_Kuroiwa_Is_Impervious_to_My_Charms#:~:text=Medaka%20Kuroiwa%20Is%20Impervious%20to%20My%20Charms%20(Japanese%3A%20黒岩メダカ,and%20illustrated%20by%20Ran%20Kuze.">
+<img src="medaka.png" width=300 height=450 class=center></div></a>
+<div align="center" class="Love"><a href="https://en.wikipedia.org/wiki/Kaguya-sama:_Love_Is_War">
+<img src="love.jpg" width=300 height=450 class=center></div></a>
+<div align="center" class="link">
+	<br><br><br>
+	<a href="Index.html">Home</a><br>
+    <a href="anime.html">Anime</a><br>
+    <a href="manga.html">Manga/Manhua/Manhwa</a><br>
+	<a href="games.html">Games</a><br>
+	<a href="waifus.html">Waifus</a>
+</div>  
+</div>
+
+</body>
+</html>
